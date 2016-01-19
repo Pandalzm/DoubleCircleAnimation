@@ -12,6 +12,9 @@
 		3B12C7A41C4CC77600365FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B12C7A21C4CC77600365FFC /* Main.storyboard */; };
 		3B12C7A61C4CC77600365FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B12C7A51C4CC77600365FFC /* Assets.xcassets */; };
 		3B12C7A91C4CC77600365FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B12C7A71C4CC77600365FFC /* LaunchScreen.storyboard */; };
+		3B12C7B11C4CCBA200365FFC /* BlueCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B12C7B01C4CCBA200365FFC /* BlueCircle.swift */; };
+		3B12C7B31C4CEFE700365FFC /* UIColor+Panda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B12C7B21C4CEFE700365FFC /* UIColor+Panda.swift */; };
+		3B12C7B71C4DDD0D00365FFC /* UIView+Panda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B12C7B61C4DDD0D00365FFC /* UIView+Panda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		3B12C7A51C4CC77600365FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B12C7A81C4CC77600365FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B12C7AA1C4CC77600365FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B12C7B01C4CCBA200365FFC /* BlueCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueCircle.swift; sourceTree = "<group>"; };
+		3B12C7B21C4CEFE700365FFC /* UIColor+Panda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Panda.swift"; sourceTree = "<group>"; };
+		3B12C7B61C4DDD0D00365FFC /* UIView+Panda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Panda.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				3B12C79E1C4CC77600365FFC /* AppDelegate.swift */,
 				3B12C7A01C4CC77600365FFC /* ViewController.swift */,
+				3B12C7B01C4CCBA200365FFC /* BlueCircle.swift */,
 				3B12C7A21C4CC77600365FFC /* Main.storyboard */,
 				3B12C7A51C4CC77600365FFC /* Assets.xcassets */,
 				3B12C7A71C4CC77600365FFC /* LaunchScreen.storyboard */,
 				3B12C7AA1C4CC77600365FFC /* Info.plist */,
+				3B12C7B21C4CEFE700365FFC /* UIColor+Panda.swift */,
+				3B12C7B61C4DDD0D00365FFC /* UIView+Panda.swift */,
 			);
 			path = DoubleCircleAnimation;
 			sourceTree = "<group>";
@@ -135,8 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B12C7B11C4CCBA200365FFC /* BlueCircle.swift in Sources */,
 				3B12C7A11C4CC77600365FFC /* ViewController.swift in Sources */,
+				3B12C7B31C4CEFE700365FFC /* UIColor+Panda.swift in Sources */,
 				3B12C79F1C4CC77600365FFC /* AppDelegate.swift in Sources */,
+				3B12C7B71C4DDD0D00365FFC /* UIView+Panda.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,7 @@
 				3B12C7AF1C4CC77600365FFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
